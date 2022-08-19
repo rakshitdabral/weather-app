@@ -92,7 +92,7 @@ h1 {
   font-size: 1.563rem;
 }
 
-@media screen and (max-width: 541px){
+@media screen and (max-width: 1127px){
   body {
     background: url(images/background.jpg);
     background-size: auto;
