@@ -18,12 +18,12 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
   const query = req.body.cityName;
-  const apiKey = "8ef0a674eb5df59d317dd49f4d4f4249";
+  const apiKey = "0f1655ba56036959e1dafc525667a5a7";
   const units = "metric";
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
     query +
-    "&appid=8ef0a674eb5df59d317dd49f4d4f4249&units=metric";
+    "&appid=0f1655ba56036959e1dafc525667a5a7&units=metric";
   https.get(url, function (response) {
     if(response.statusCode === 200) {
         response.on("data", (chunk) => {
