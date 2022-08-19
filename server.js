@@ -46,6 +46,6 @@ app.post("/", function (req, res) {
   });
 });
 
-app.listen(port, function () {
+app.listen( process.env.PORT || port, function () {
   console.log("server running on port " + port);
 });
