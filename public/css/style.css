@@ -1,0 +1,81 @@
+body {
+  background: url(images/background.jpg);
+  background-size: 100%;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 150px auto;
+}
+
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.search-bar {
+  border-radius: 20px;
+  margin: 30px;
+  width: 290px;
+  height: 30px;
+  text-align: center;
+  border: none;
+}
+
+.btn {
+  width: 65px;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+}
+
+.weather {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500px;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.flex {
+  margin-top: 30px;
+}
+
+.flex img {
+  height: 65px;
+  width: 65px;
+}
+
+.description {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+
+.humidity {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+
+.wind {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
