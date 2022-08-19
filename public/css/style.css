@@ -1,11 +1,12 @@
 body {
   background: url(images/background.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
   margin: 150px auto;
 }
 
@@ -25,12 +26,21 @@ body {
 .search-bar {
   border-radius: 20px;
   margin: 30px;
+  margin-left: 60px;
   width: 290px;
   height: 30px;
   text-align: center;
   border: none;
 }
 
+.search-bar:focus{
+  outline: none;
+  
+}
+
+.search-bar::placeholder{
+  opacity: 0.7;
+}
 .btn {
   width: 65px;
   border-radius: 20px;
@@ -46,12 +56,14 @@ h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500px;
   font-size: 30px;
+ 
 }
 
 h1 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400px;
-  font-size: 20px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #e4dede; 
 }
 
 .flex {
@@ -59,8 +71,8 @@ h1 {
 }
 
 .flex img {
-  height: 65px;
-  width: 65px;
+  height: 105px;
+  width: 105px;
 }
 
 .description {
@@ -78,4 +90,13 @@ h1 {
   margin-top: 20px;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
+}
+
+@media screen and (max-width: 541px){
+  body {
+    background: url(images/background.jpg);
+    background-size: auto;
+    
+  }
+  
 }

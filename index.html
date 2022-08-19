@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!---------------LINKS------------->
-    
-    <script src="https://kit.fontawesome.com/53a8500608.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-    <title>Weather App</title>
-</head>
-<body>
-    <div class="container glass">
-        <div class="search">
-            <form method="post" action="/">
-                <input type="text" class="search-bar" placeholder="Location" name="cityName">
-                <button type="submit" class="btn "><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </div>
-        <div class="weather loading">
-            <h2 class="city">Weather in Denver</h2>icon,weatherDesc,weather
-            <h1 class="temp">51°C</h1>
-            <div class="flex">
-              <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
-              <div class="description">Cloudy</div>
-            </div>
-            <div class="humidity">Humidity: 60%</div>
-            <div class="wind">Wind speed: 6.2 km/h</div>
-          </div>
-    </div>
 
-    <script src="/app.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/53a8500608.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container glass">
+      <div class="search">
+        <form method="post" action="/">
+          <input
+            type="text"
+            class="search-bar"
+            placeholder="Location"
+            name="cityName"
+          />
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Denver</h2>
+        
+        <h1 class="temp">51 °C</h1>
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt=""
+            class="icon"
+          />
+          <div class="description">Cloudy</div>
+        </div>
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">Wind speed: 6.2 km/h</div>
+      </div>
+    </div>
+  </body>
 </html>
