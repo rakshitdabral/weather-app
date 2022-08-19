@@ -33,12 +33,11 @@ body {
   border: none;
 }
 
-.search-bar:focus{
+.search-bar:focus {
   outline: none;
-  
 }
 
-.search-bar::placeholder{
+.search-bar::placeholder {
   opacity: 0.7;
 }
 .btn {
@@ -56,14 +55,21 @@ h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 31.25rem;
   font-size: 1.875rem;
+<<<<<<< Updated upstream
  
+=======
+>>>>>>> Stashed changes
 }
 
 h1 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 25rem;
   font-size: 3.125rem;
+<<<<<<< Updated upstream
   text-shadow: 0.125rem 0.125rem 0.125rem #e4dede; 
+=======
+  text-shadow: 0.125rem 0.125rem 0.125rem #e4dede;
+>>>>>>> Stashed changes
 }
 
 .flex {
@@ -92,11 +98,18 @@ h1 {
   font-size: 1.563rem;
 }
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 1127px){
+=======
+@media screen and (max-width: 1127px) {
+>>>>>>> Stashed changes
   body {
     background: url(images/background.jpg);
     background-size: auto;
-    
   }
+<<<<<<< Updated upstream
   
 }
+=======
+}
+>>>>>>> Stashed changes
